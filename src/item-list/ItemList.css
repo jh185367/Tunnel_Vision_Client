@@ -1,0 +1,38 @@
+.ItemList {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-column-start: 2;
+  grid-auto-flow: row;
+  font-size: 1.5em;
+  background-color: #dae9d7;
+}
+
+.list-header {
+  justify-self: center;
+}
+
+.list-body {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  border-top: 2px solid #faf9fa;
+  margin: 0;
+}
+
+.list-item {
+  padding: 10px;
+}
+
+.list-item.selected {
+  background-color: #faf9fa;
+}
+
+.list-footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #faf9fa;
+  padding: 8px;
+}
+
+.list-footer > * {
+  margin: 5px 0;
+}

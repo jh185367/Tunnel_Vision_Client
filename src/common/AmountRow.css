@@ -1,0 +1,4 @@
+.AmountRow {
+  display: flex;
+  justify-content: space-between;
+}

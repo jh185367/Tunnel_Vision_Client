@@ -1,0 +1,13 @@
+.ItemSelected {
+  display: grid;
+  font-size: 2.5em;
+  grid-auto-flow: row;
+  grid-template-rows: 50% 50%;
+  background-color: #dae9d7be;
+  padding: 40px 20px;
+}
+
+.item-image {
+  height: 32vh;
+  width: 32vh;
+}

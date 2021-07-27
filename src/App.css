@@ -1,0 +1,24 @@
+.App {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-auto-flow: column;
+  position: absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.left-window {
+  display: grid;
+  grid-template-rows: 15% 70% 15%;
+  grid-auto-flow: row;
+}
+
+.left-window > * {
+  margin: 0 20px;
+}
+
+.company-logo {
+  padding-top: 30px;
+}
